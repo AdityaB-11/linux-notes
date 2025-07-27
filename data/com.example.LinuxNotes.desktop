@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Linux Notes
+Comment=A native notes and to-do app for Linux
+Exec=linux-notes
+Icon=com.example.LinuxNotes
+Terminal=false
+Categories=Office;Utility;
+Keywords=notes;todo;tasks;organizer;
+StartupWMClass=linux-notes

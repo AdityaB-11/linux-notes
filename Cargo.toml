@@ -1,0 +1,24 @@
+[package]
+name = "linux-notes"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A native notes and to-do app for Linux"
+license = "MIT"
+
+[dependencies]
+gtk = { version = "0.7", package = "gtk4", features = ["v4_6"] }
+glib = "0.18"
+gio = "0.18"
+adw = { version = "0.5", package = "libadwaita", features = ["v1_1"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4", "serde"] }
+dirs = "5.0"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.example.LinuxNotes</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Linux Notes</name>
+  <summary>A native notes and to-do app for Linux</summary>
+  <description>
+    <p>
+      Linux Notes is a simple and elegant notes and to-do application built specifically for Linux.
+      It provides a clean interface for organizing your thoughts and tasks.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Create and edit notes with rich text</li>
+      <li>Manage to-do lists with checkable items</li>
+      <li>Modern GTK 4 interface with libadwaita styling</li>
+      <li>Automatic data persistence</li>
+      <li>Native Linux integration</li>
+    </ul>
+  </description>
+  <categories>
+    <category>Office</category>
+    <category>Utility</category>
+  </categories>
+  <keywords>
+    <keyword>notes</keyword>
+    <keyword>todo</keyword>
+    <keyword>tasks</keyword>
+    <keyword>organizer</keyword>
+  </keywords>
+  <url type="homepage">https://example.com</url>
+  <url type="bugtracker">https://example.com/issues</url>
+  <developer_name>Your Name</developer_name>
+  <launchable type="desktop-id">com.example.LinuxNotes.desktop</launchable>
+  <provides>
+    <binary>linux-notes</binary>
+  </provides>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window showing notes and to-do interface</caption>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.1.0" date="2025-07-27">
+      <description>
+        <p>Initial release</p>
+        <ul>
+          <li>Notes creation and editing</li>
+          <li>To-do list management</li>
+          <li>Modern GTK 4 interface</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

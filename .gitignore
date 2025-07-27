@@ -1,0 +1,8 @@
+/target/
+/Cargo.lock
+/build-dir/
+/.flatpak-builder/
+/generated-sources.json
+*.flatpak
+.vscode/
+.idea/
