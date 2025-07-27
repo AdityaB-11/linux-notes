@@ -27,7 +27,7 @@ A native notes and to-do app for Linux built with Rust, GTK 4, and distributed a
 sudo apt install libgtk-4-dev libadwaita-1-dev
 
 # Clone and build
-git clone <repository-url>
+git clone https://github.com/AdityaB-11/linux-notes.git
 cd linux-notes
 cargo build --release
 ```
